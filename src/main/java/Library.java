@@ -4,6 +4,9 @@
 public class Library {
 	//Task 1
 	public static void main(String arg[]) {
+		//Task 2
+		Library lib = new Library();
+		if (lib.someLibraryMethod())
 			System.out.println("When there is a fire, commit and push.");
 	}
 	
@@ -11,4 +14,3 @@ public class Library {
         return true;
     }
 }
-
